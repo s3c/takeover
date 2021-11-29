@@ -58,21 +58,21 @@ services = {
     'Tumbler': {'error': r'Whatever you were looking for doesn\\\'t currently exist at this address.'},
     'Wordpress': {'error': r'Do you want to register'},
 
-    'TeamWork': {'error': r'Oops - We didn\'t find your site.'},
-    'Helpjuice': {'error': r'We could not find what you\'re looking for.'},
+    'TeamWork': {'error': r'Oops - We didn\\\'t find your site.'},
+    'Helpjuice': {'error': r'We could not find what you\\\'re looking for.'},
     'Helpscout': {'error': r'No settings were found for this company:'},
     'Cargo': {'error': r'<title>404 &mdash; File not found</title>'},
     'Uservoice': {'error': r'This UserVoice subdomain is currently available!'},
     'Surge': {'error': r'project not found'},
-    'Intercom': {'error': r'This page is reserved for artistic dogs\.|Uh oh\. That page doesn\'t exist</h1>'},
+    'Intercom': {'error': r'This page is reserved for artistic dogs\.|Uh oh\. That page doesn\\\'t exist</h1>'},
 
-    'Webflow': {'error': r'<p class=\"description\">The page you are looking for doesn\'t exist or has been moved.</p>'},
-    'Kajabi': {'error': r'<h1>The page you were looking for doesn\'t exist.</h1>'},
+    'Webflow': {'error': r'<p class=\"description\">The page you are looking for doesn\\\'t exist or has been moved.</p>'},
+    'Kajabi': {'error': r'<h1>The page you were looking for doesn\\\'t exist.</h1>'},
     'Thinkific': {'error': r'You may have mistyped the address or the page may have moved.'},
     'Tave': {'error': r'<h1>Error 404: Page Not Found</h1>'},
 
     'Wishpond': {'error': r'<h1>https://www.wishpond.com/404?campaign=true'},
-    'Aftership': {'error': r'Oops.</h2><p class=\"text-muted text-tight\">The page you\'re looking for doesn\'t exist.'},
+    'Aftership': {'error': r'Oops.</h2><p class=\"text-muted text-tight\">The page you\\\'re looking for doesn\'''t exist.'},
     'Aha': {'error': r'There is no portal here \.\.\. sending you back to Aha!'},
     'Tictail': {'error': r'to target URL: <a href=\"https://tictail.com|Start selling on Tictail.'},
     'Brightcove': {'error': r'<p class=\"bc-gallery-error-code\">Error Code: 404</p>'},
@@ -82,9 +82,9 @@ services = {
     'Campaignmonitor': {'error': r'Double check the URL or <a href=\"mailto:help@createsend.com'},
     'Acquia': {'error': r'The site you are looking for could not be found.|If you are an Acquia Cloud customer and expect to see your site at this address'},
     'Proposify': {'error': r'If you need immediate assistance, please contact <a href=\"mailto:support@proposify.biz'},
-    'Simplebooklet': {'error': r'We can\'t find this <a href=\"https://simplebooklet.com'},
+    'Simplebooklet': {'error': r'We can\\\'t find this <a href=\"https://simplebooklet.com'},
     'GetResponse': {'error': r'With GetResponse Landing Pages, lead generation has never been easier'},
-    'Vend': {'error': r'Looks like you\'ve traveled too far into cyberspace.'},
+    'Vend': {'error': r'Looks like you\\\'ve traveled too far into cyberspace.'},
     'Jetbrains': {'error': r'is not a registered InCloud YouTrack.'},
 
     'Smartling': {'error': r'Domain is not configured'},
@@ -95,9 +95,11 @@ services = {
     'Divio': {'error': r'Application not responding'},
     'feedpress': {'error': r'The feed has not been found.'},
     'readme': {'error': r'Project doesnt exist... yet!'},
-    'statuspage': {'error': r'You are being <a href=\'https>'},
+    'statuspage': {'error': r'You are being <a href=\\\'https>'},
     'zendesk': {'error': r'Help Center Closed'},
-    'worksites.net': {'error': r'Hello! Sorry, but the webs>'}
+    'worksites.net': {'error': r'Hello! Sorry, but the webs>'},
+    
+    'Azure': {'error': r'Oops! We weren\\\'t able to find your Azure Front Door Service configuration'}
 }
 
 
